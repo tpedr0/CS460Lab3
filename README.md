@@ -39,14 +39,36 @@ app/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/movieposter/
-│   │   │   ├── MainActivity.java
-│   │   │   ├── Poster.java
-│   │   │   ├── PosterAdapter.java
-│   │   │   └── PosterListener.java
+│   │   │   ├── MainActivity.java      # Main app entry point
+│   │   │   ├── Poster.java           # Movie poster data model
+│   │   │   ├── PosterAdapter.java    # RecyclerView adapter
+│   │   │   └── PosterListener.java   # Selection event interface
 │   │   └── res/
-│   │       ├── layout/
 │   │       ├── drawable/
+│   │       │   ├── checkmarka.png
+│   │       │   ├── deadpoolwolverine.jpg
+│   │       │   ├── freesolo.jpg
+│   │       │   ├── ic_launcher_background.xml
+│   │       │   ├── ic_launcher_foreground.xml
+│   │       │   ├── ic_menu.xml
+│   │       │   ├── ic_search.xml
+│   │       │   ├── joker.jpg
+│   │       │   ├── movie127hours.jpg
+│   │       │   ├── parasite.jpg
+│   │       │   ├── poster_background.xml
+│   │       │   ├── poster_selected_background.xml
+│   │       │   ├── socialnetwork.jpg
+│   │       │   ├── terrifier3.jpg
+│   │       │   ├── thewildrobot.jpg
+│   │       │   ├── transformersone.jpg
+│   │       │   └── venom.jpg
+│   │       ├── layout/
+│   │       │   ├── activity_main.xml
+│   │       │   └── item_container.xml
 │   │       └── values/
+│   │           ├── colors.xml
+│   │           ├── strings.xml
+│   │           └── style.xml
 └── build.gradle
 ```
 
